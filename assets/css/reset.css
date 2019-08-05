@@ -1,0 +1,28 @@
+body {
+    background: #FCFCFC;
+}
+
+header {
+    background: #FCFCFC;
+    margin: 0 0 0 4%;
+}
+
+nav {
+    background: rgb(212, 173, 164);
+    margin: 5%;
+}
+
+div {
+    background: rgb(121, 156, 158);
+}
+
+section {
+    background: rgb(167, 184, 185);
+    margin: 5%;
+}
+
+footer {
+    background: rgb(140, 140, 236);
+    margin: 5%;
+}
+

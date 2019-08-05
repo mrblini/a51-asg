@@ -1,0 +1,26 @@
+.logoTitle {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.imgHead {
+    height: 70%;
+    width: 100%;
+    /* position: absolute; */
+    opacity: .8;
+    z-index: -1;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-38%, -38%);
+    color: rgb(0, 36, 5);
+  }
+
+/* .divImg {
+    float: left;
+    overflow: auto;
+    display: inline-block;
+} */
