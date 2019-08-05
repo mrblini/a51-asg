@@ -39,7 +39,7 @@
 
     <!-- ---- BODY -->
     <div class="textOne">
-        <h4>bod</h4>
+        <h5 class="text-center">asdf sdfj</h5>
         <p>As AIs, robots and other electronic tech become increasingly capable, there's a risk it turns into a kind of
             alien intelligence that people can't relate to. </p>
 
@@ -52,10 +52,8 @@
             influencers, virtual companions, synthespians ... personality-driven UX experiences for hardware and
             software....</p>
 
-
         <!--  -->
-        <h4>The Area51 Framework provides</h4>
-
+        <h5 class="text-center">The Area51 Framework provides</h5>
 
         <ul>
             <li>ontology for representing information regarding a human user's personality, experience, social
@@ -70,40 +68,58 @@
         <p>These ingredients work together to enable an audience-centric approach to bring personality and intelligence
             to a variety of entertainment, technology, and business applications.</p>
 
+        <h5 class="text-center">The Area51 token will be used for multiple purposes, including</h5>
 
-        <h4>The Area51 token will be used for multiple purposes, including</h4>
-        
         <ul>
             <li>purchasing upgrades and additional features for virtual characters</li>
-            <li>receiving compensation for use of the data and knowledge you impart to a virtual character and participating in virtual influencer activities and other crowd-sourced activities.</li>
-            <li>paying Virtual Influencers for their exploits, similarly to how you pay Twitch-streamers for theirs.</li>
+            <li>receiving compensation for use of the data and knowledge you impart to a virtual character and
+                participating in virtual influencer activities and other crowd-sourced activities.</li>
+            <li>paying Virtual Influencers for their exploits, similarly to how you pay Twitch-streamers for theirs.
+            </li>
         </ul>
 
-        <p>To demonstrate and leverage this new framework the Area51 team is creating a first generation of AI friends that
-        we like to think of as “alien lifeforms” created right here on earth. These Area51 personalities are designed
-        not just to be Alexa or Siri style interfaces to your digital lifestyle, but friends and companions who are
-        there for you whenever you need them.</p>
+        <p>To demonstrate and leverage this new framework the Area51 team is creating a first generation of AI friends
+            that
+            we like to think of as “alien lifeforms” created right here on earth. These Area51 personalities are
+            designed
+            not just to be Alexa or Siri style interfaces to your digital lifestyle, but friends and companions who are
+            there for you whenever you need them.</p>
 
-        
+        <p>These initial Area51 AI friends take the form of warm, friendly space aliens, conversant with human language
+            and
+            emotion -- putting an empathic face on the ever-changing, post-human world of modern computers, data
+            services,
+            networks and AI algorithms.</p>
 
-        These initial Area51 AI friends take the form of warm, friendly space aliens, conversant with human language and
-        emotion -- putting an empathic face on the ever-changing, post-human world of modern computers, data services,
-        networks and AI algorithms.
+        <p>Area51 is designed to interoperate closely with the SingularityNET decentralized AI platform and the Ocean
+            decentralized data platform, and in general to support interoperability with a variety of blockchain-based
+            computing networks. In particular, the AI functionalities required by the first-generation Area51 characters
+            will be derived via AI agents running in the SingularityNET platform, via back-end automated conversion of
+            Area51 and SingularityNET AGI tokens. Never before has the power of sophisticated blockchain-based AI and
+            data
+            architectures been deployed for the purpose of creating entertaining, useful and lifelike virtual
+            characters.</p>
 
-        Area51 is designed to interoperate closely with the SingularityNET decentralized AI platform and the Ocean
-        decentralized data platform, and in general to support interoperability with a variety of blockchain-based
-        computing networks. In particular, the AI functionalities required by the first-generation Area51 characters
-        will be derived via AI agents running in the SingularityNET platform, via back-end automated conversion of
-        Area51 and SingularityNET AGI tokens. Never before has the power of sophisticated blockchain-based AI and data
-        architectures been deployed for the purpose of creating entertaining, useful and lifelike virtual characters.
 
     </div>
 
 
     <!-- ---- TEAM -->
     <section>
-        <h1>team</h1>
-        photo of each teammember]
+        <h1 class="text-center">TEAM</h1>
+
+        <div class="row">
+            <div class="column">
+                <img class="teamImg" src="./assets/images/members/Lotlikar.jpg" alt="">
+            </div>
+
+            <div class="column">
+                    <img class="teamImg" src="./assets/images/members/Bugaj.jpg" alt="">
+            </div>
+        </div>
+
+
+
 
         Stephan V. Bugaj, Chief Executive & Chief Creative Officer
         Stephan is a Hollywood and Silicon Valley industry veteran who was part of the pioneering wave of commercial web
@@ -144,13 +160,66 @@
 
     </section>
 
+    <style>
+        .container {
+            position: relative;
+            width: 50%;
+        }
 
-    <!-- ---- SIGN UP -->
-    <footer>
-        <h1>signup</h1>
-    </footer>
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%)
+        }
+
+        .container:hover .image {
+            opacity: 0.3;
+        }
+
+        .container:hover .middle {
+            opacity: 1;
+        }
+
+        .text {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <h2>Fade in a Box</h2>
+
+        <div class="container">
+            <img src="img_avatar.png" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+                <div class="text">John Doe</div>
+            </div>
+        </div>
 
 
-</body>
+        <!-- ---- SIGN UP -->
+        <footer>
+            <h1>signup</h1>
+        </footer>
+
+
+    </body>
 
 </html>

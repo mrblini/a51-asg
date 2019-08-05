@@ -17,10 +17,29 @@
     transform: translate(-50%, -50%);
     color: rgb(0, 36, 5);
     text-align: center;
-  }
+}
 
 .textOne {
     background: #FCFCFC;
     margin: 40% 10% 0 10%;
 }
 
+.teamImg {
+    /* height: 4%; */
+    width: 30%;
+    border-radius: 4%;
+    background-color: rgb(167, 184, 185);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
