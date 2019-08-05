@@ -5,22 +5,22 @@
 .imgHead {
     height: 70%;
     width: 100%;
-    /* position: absolute; */
+    position: absolute;
     opacity: .8;
     z-index: -1;
 }
 
-/* Centered text */
 .centered {
     position: absolute;
-    top: 54%;
+    top: 42%;
     left: 50%;
-    transform: translate(-38%, -38%);
+    transform: translate(-50%, -50%);
     color: rgb(0, 36, 5);
+    text-align: center;
   }
 
-/* .divImg {
-    float: left;
-    overflow: auto;
-    display: inline-block;
-} */
+
+.del {
+    margin-top: 40%;
+}
+
