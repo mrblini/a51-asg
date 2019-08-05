@@ -25,3 +25,7 @@ footer {
     margin: 5%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Share Tech', sans-serif;
+    color: rgb(4, 4, 155);
+}
